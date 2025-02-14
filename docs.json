@@ -9,9 +9,6 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Documentation",
         "groups": [
           {
             "group": "Get Started",
@@ -32,9 +29,7 @@
               "essentials/reusable-snippets"
             ]
           }
-        ]
-      }
-    ],
+        ],
     "global": {
       "anchors": [
         {

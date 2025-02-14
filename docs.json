@@ -54,6 +54,13 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
+    "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "ScentedHub.com",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
   "footer": {
     "socials": {
       "x": "https://x.com/mintlify",

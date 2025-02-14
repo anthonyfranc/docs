@@ -9,9 +9,6 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
         "groups": [
           {
             "group": "Get Started",
@@ -33,8 +30,7 @@
             ]
           }
         ]
-      }
-    ],
+      },
     "global": {
       "anchors": [
         {

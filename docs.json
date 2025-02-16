@@ -9,7 +9,25 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "dropdowns": [
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": ["introduction", "quickstart", "development"]
+      },
+      {
+        "group": "Essentials",
+        "pages": [
+          "essentials/markdown",
+          "essentials/code",
+          "essentials/images",
+          "essentials/settings",
+          "essentials/navigation",
+          "essentials/reusable-snippets"
+        ]
+      }
+    ],
+    "global": {
+      "dropdowns": [
     {
       "dropdown": "Documentation",
       "icon": "book-open",
@@ -33,24 +51,6 @@
       "href": "https://external-link.com/blog"
     }
   ],
-    "groups": [
-      {
-        "group": "Get Started",
-        "pages": ["introduction", "quickstart", "development"]
-      },
-      {
-        "group": "Essentials",
-        "pages": [
-          "essentials/markdown",
-          "essentials/code",
-          "essentials/images",
-          "essentials/settings",
-          "essentials/navigation",
-          "essentials/reusable-snippets"
-        ]
-      }
-    ],
-    "global": {
     }
   },
   "logo": {

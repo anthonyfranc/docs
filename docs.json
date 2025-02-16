@@ -8,7 +8,7 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
-     "navigation": {
+  "navigation": {
     "dropdowns": [
       {
         "dropdown": "Documentation",
@@ -16,28 +16,22 @@
         "groups": [
           {
             "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
+            "pages": ["introduction", "quickstart", "development"]
           }
         ]
       },
       {
         "dropdown": "Changelog",
+        "icon": "book-open",
         "groups": [
           {
             "group": "Platform Updates",
-            "pages": [
-              "changelog/code",
-            ]
+            "pages": ["changelog/code"]
           }
         ]
       }
     ],
-    "global": {
-    }
+    "global": {}
   },
   "logo": {
     "light": "/logo/light.svg",

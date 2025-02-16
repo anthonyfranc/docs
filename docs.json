@@ -9,9 +9,10 @@
   },
   "favicon": "/favicon.svg",
     "navigation": {
-    "anchors": [
+    "dropdowns": [
       {
-        "anchor": "Documentation",
+        "dropdown": "Documentation",
+        "icon": "book-open",
         "groups": [
           {
             "group": "Get Started",
@@ -24,7 +25,7 @@
         ]
       },
       {
-        "anchor": "Changelog",
+        "dropdown": "Changelog",
         "groups": [
           {
             "group": "Group 2",

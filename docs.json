@@ -27,30 +27,23 @@
       }
     ],
     "global": {
-      "dropdowns": [
-    {
-      "dropdown": "Documentation",
-      "icon": "book-open",
-      "pages": [
-        "quickstart",
-        "development",
-        "navigation"
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "https://mintlify.com/docs",
+          "icon": "book-open-cover"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://mintlify.com/community",
+          "icon": "slack"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://mintlify.com/blog",
+          "icon": "newspaper"
+        }
       ]
-    },
-    {
-      "dropdown": "API References",
-      "icon": "sqaure-terminal",
-      "pages": [
-        "api-reference/get",
-        "api-reference/post",
-        "api-reference/delete"
-      ]
-    },
-    {
-      "dropdown": "Blog",
-      "href": "https://external-link.com/blog"
-    }
-  ],
     }
   },
   "logo": {

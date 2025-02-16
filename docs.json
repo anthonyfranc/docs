@@ -17,7 +17,7 @@
             "group": "Group 1",
             "pages": [
               "some-folder/file-1",
-              "another-folder/file-2"
+              "another-folder/file-2",
               "just-a-file"
             ]
           }

@@ -3,34 +3,56 @@ title: 'February 15, 2025'
 description: 'Fix duplicate inventory deductions during recipe testing'
 ---
 
-## Basic
+### Fixed
 
-### Inline Code
+* Fixed an issue where inventory quantities were being deducted twice during recipe testing
 
-To denote a `word` or `phrase` as code, enclose it in backticks (`).
+* Improved inventory tracking accuracy during recipe testing
 
-```
-To denote a `word` or `phrase` as code, enclose it in backticks (`).
-```
+* Added better validation for inventory levels before recipe testing
 
-### Code Block
+### Added
 
-Use [fenced code blocks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks) by enclosing code in three backticks and follow the leading ticks with the programming language of your snippet to get syntax highlighting. Optionally, you can also write the name of your code after the programming language.
+* Added status tracking for inventory transactions to prevent duplicate processing
 
-```java HelloWorld.java
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
-```
+* Added better error messages when there's insufficient inventory
 
-````md
-```java HelloWorld.java
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
-```
-````
+* Added safeguards to prevent inventory from going negative
+
+### Improved
+
+* Improved reliability of recipe testing process
+
+* Enhanced inventory validation before starting recipe tests
+
+* Better handling of unit conversions between grams and other measurement units
+
+### Technical Details
+
+* Consolidated inventory update logic to prevent duplicate processing
+
+* Added transaction status tracking ('pending' -> 'processed')
+
+* Improved error handling with descriptive messages
+
+* Enhanced validation checks for inventory levels
+
+### Improved Recipe Testing & Inventory Management
+
+We've made significant improvements to how recipe testing works in ScentedHub. When you test a recipe now, the system more accurately tracks the materials used, ensuring your inventory stays perfectly in sync. This means you'll always have reliable information about your available supplies and won't run into surprises when starting a new test. We've also added better validation to prevent accidental over-use of materials - the system will now clearly warn you if you don't have enough of any ingredient before you start a test. This helps prevent wasted materials and ensures more consistent test results. These updates make the recipe testing process more reliable and help you maintain better control over your inventory, ultimately saving you time and reducing waste in your candle-making process.
+
+The key benefits include:
+
+* More accurate inventory tracking during recipe testing
+
+* Better prevention of material shortages
+
+* Clearer warnings before starting tests
+
+* Reduced risk of wasted materials
+
+* More reliable test results
+
+* Improved inventory accuracy
+
+These improvements help ensure your candle-making process runs more smoothly and efficiently, with fewer interruptions due to inventory issues.

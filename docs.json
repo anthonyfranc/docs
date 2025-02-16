@@ -26,25 +26,6 @@
         ]
       }
     ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "icon": "book-open-cover"
-          "pages": ["introduction", "quickstart", "development"]
-        },
-        {
-          "anchor": "Changelog",
-          "href": "https://mintlify.com/community",
-          "icon": "history"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
   },
   "logo": {
     "light": "/logo/light.svg",

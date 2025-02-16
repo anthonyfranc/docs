@@ -8,7 +8,7 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
-    "navigation": {
+     "navigation": {
     "dropdowns": [
       {
         "dropdown": "Documentation",
@@ -28,11 +28,9 @@
         "dropdown": "Changelog",
         "groups": [
           {
-            "group": "Group 2",
+            "group": "Platform Updates",
             "pages": [
-              "some-other-folder/file-1",
-              "various-different-folders/file-2",
-              "another-file"
+              "changelog/code",
             ]
           }
         ]

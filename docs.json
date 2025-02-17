@@ -26,7 +26,7 @@
         "groups": [
           {
             "group": "Platform Updates",
-            "pages": ["changelog/february-15-2025"]
+            "pages": ["changelog/february-15-2025", "changelog/february-16-2025"]
           }
         ]
       }
